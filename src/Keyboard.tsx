@@ -241,7 +241,7 @@ export class Keyboard extends React.Component<KeyboardProps, KeyboardState> {
         this.context = context;
     }
 
-    public componentWillMount(): void {
+    public UNSAFE_componentWillMount(): void {
         const { corrector } = this.props;
         if(typeof corrector === constants.typeofFunction) {
             this.corrector = corrector!.bind(this);
@@ -311,7 +311,7 @@ export class Keyboard extends React.Component<KeyboardProps, KeyboardState> {
         return constants.boolFalse;
     }
 
-    public componentWillReceiveProps(props: KeyboardProps): void {
+    public UNSAFE_componentWillReceiveProps(props: KeyboardProps): void {
         this.syncValue(props.textField.props.value);
         if(this.props.corrector !== props.corrector) {
             this.corrector = props.corrector!.bind(this);

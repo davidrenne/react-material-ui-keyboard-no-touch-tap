@@ -1,7 +1,7 @@
 {
-  "name": "react-material-ui-keyboard",
-  "version": "6.2.0",
-  "description": "Virtual keyboard for TextField when needed.",
+  "name": "react-material-ui-keyboard-no-touch-tap",
+  "version": "6.2.1",
+  "description": "Virtual keyboard for TextField when needed. (React 16.14 no onTouchTap)",
   "main": "index.js",
   "typings": "index.d.ts",
   "scripts": {
@@ -27,13 +27,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NoHomey/react-material-ui-keyboard.git"
+    "url": "git+https://github.com/davidrenne/react-material-ui-keyboard-no-touch-tap.git"
   },
   "peerDependencies": {
-    "material-ui": "^0.18.6",
-    "react": "15.6.1",
-    "react-dom": "15.6.1",
-    "react-tap-event-plugin": "^2.0.1"
+    "material-ui": "^0.20.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "@types/deep-equal": "^1.0.0",
@@ -52,11 +51,10 @@
     "html-webpack-plugin": "^2.29.0",
     "jest": "^20.0.4",
     "material-ui": "^0.18.6",
-    "react": "15.6.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-addons-test-utils": "15.6.0",
-    "react-dom": "15.6.1",
     "react-hot-loader": "^1.3.1",
-    "react-tap-event-plugin": "^2.0.1",
     "remap-istanbul": "^0.9.5",
     "ts-loader": "^2.3.1",
     "typescript": "^2.4.2",

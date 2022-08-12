@@ -106,7 +106,7 @@ export class KeyboardKey extends React.Component<KeyboardKeyProps> {
                 minWidth: width
             },
             primary: constants.boolTrue,
-            onTouchTap: this.onTouchTap,
+            onClick: this.onTouchTap,
             disableFocusRipple: disableEffects,
             disableKeyboardFocus: disableEffects,
             disableTouchRipple: disableEffects

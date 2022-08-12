@@ -52,3 +52,5 @@ ActiveElement.js
 coverage
 lcov.info
 .vscode
+
+.history
